@@ -1,0 +1,42 @@
+[
+        {
+                "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+                "name": "Refreshing with JavaScript ES6 new Syntax",
+                "author": "Said Hayani",
+                "img": "https://i.ibb.co/wyMzkzR/1.jpg",
+                "author_img": "https://i.ibb.co/m5C1MG8/9e488cdf-f609-4f48-81d7-4d1282fc41e7-thumb.jpg",
+                "read_time": 5,
+                "publish_date": "APRIL 20, 2018",
+                "quantity": 0
+        },
+        {
+                "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+                "name": "How to get your first job as a self-taught programmer",
+                "author": "Adam Nathaniel Davis",
+                "img": "https://i.ibb.co/ZWHkWZh/2.png",
+                "author_img": "https://i.ibb.co/HTswghS/ezgif-com-webp-to-jpg-1.jpg",
+                "read_time": 15,
+                "publish_date": "Mar 22, 2023",
+                "quantity": 0
+        },
+        {
+                "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+                "name": "React Design Patterns: Everything You Should Know",
+                "author": "Vivek Patel",
+                "img": "https://i.ibb.co/zNZV4mG/3.png",
+                "author_img": "https://i.ibb.co/VMVgFfR/ezgif-com-webp-to-jpg-2.jpg",
+                "read_time": 10,
+                "publish_date": "October 18, 2023",
+                "quantity": 0
+        },
+        {
+                "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+                "name": "6 Best Places to Learn React.js Coding for FREE in 2023",
+                "author": "javinpaul",
+                "img": "https://i.ibb.co/JBgYCgh/4.jpg",
+                "author_img": "https://i.ibb.co/WPxDjFz/TJSKV7-LD-400x400.png",
+                "read_time": 8,
+                "publish_date": "Feb 25, 2021",
+                "quantity": 0
+        }
+]
