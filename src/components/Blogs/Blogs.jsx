@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Blogs.css'
 import Blog from '../Blog/Blog';
+import Cart from '../Cart/Cart';
 const Blogs = () => {
     const [blogs, setBlogs] = useState([]);
     useEffect(() => {
@@ -19,7 +20,7 @@ const Blogs = () => {
                 }
             </div>
             <div className="cart-container">
-                <h2>cart</h2>
+                <Cart></Cart>
             </div>
         </div>
     );

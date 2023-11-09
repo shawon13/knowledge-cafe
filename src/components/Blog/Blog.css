@@ -1,7 +1,8 @@
 .blog {
-    margin-bottom: 30px;
+    padding: 30px 0px;
     width: 845px;
     height: 700px;
+    border-bottom: 1px solid rgba(209, 204, 204, 0.6);
 }
 
 .blog-img {
@@ -39,7 +40,9 @@
 }
 
 .read-time {
-    margin: 5px 0px;
+    margin: 15px 0px;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .blog-name {
@@ -47,5 +50,4 @@
     font-size: 40px;
     color: #111111;
     margin: 10px 0px;
-    line-height: 50px;
 }
