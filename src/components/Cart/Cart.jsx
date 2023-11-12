@@ -1,16 +1,21 @@
 import React from 'react';
 import './Cart.css'
-const Cart = () => {
+import Blogname from '../Blogname/Blogname';
+const Cart = ({ cart, carts }) => {
+    let totalTime = 0;
+    for (const time of carts) {
+        totalTime = totalTime + time.read_time * time.quantity;
+    }
     return (
-        <div>
+        <div className='cart'>
             <div className='cart-time'>
-                <h6>Spent time on read : 500 min</h6>
+                <h6>Spent time on read : {totalTime} min</h6>
             </div>
             <div className='cart-details'>
-                <h4>Bookmarked Blogs : 8</h4>
-                <div className='cart-blog-name'>
-                    <h6>How to get your first job as a self-taught programmer</h6>
-                </div>
+                <h4>Bookmarked Blogs : {cart.length}</h4>
+                {
+                    cart.map(b => <Blogname key={b.id} b={b}></Blogname>)
+                }
             </div>
         </div>
     );

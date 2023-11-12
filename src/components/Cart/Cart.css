@@ -1,3 +1,8 @@
+.cart {
+    position: sticky;
+    top: 0;
+}
+
 .cart-time {
     height: 60px;
     border-radius: 8px;
@@ -9,11 +14,11 @@
     margin: 0px;
     font-size: 18px;
     font-weight: 600;
-    padding: 17px 40px;
+    padding: 16px 30px;
 }
 
 .cart-details {
-    height: 1352px;
+    height: 800px;
     border-radius: 8px;
     padding: 20px;
     background-color: rgba(96, 71, 236, 0.1);
@@ -22,17 +27,4 @@
 
 .cart-details h4 {
     margin: 0px 0px 15px 0px;
-}
-
-.cart-blog-name {
-    height: 60px;
-    border-radius: 8px;
-    background-color: #fff;
-}
-
-.cart-blog-name h6 {
-    margin: 0px;
-    padding: 10px;
-    font-size: 18px;
-    line-height: 20px;
 }
