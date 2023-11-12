@@ -79,7 +79,7 @@ const Blogs = () => {
         }
         else {
             exists.quantity = exists.quantity + 1;
-            const remaining = carts.filter(b => b.id === blog.id);
+            const remaining = carts.filter(b => b.id !== blog.id);
             newCart = [...remaining, exists]
         }
         setCarts(newCart);
